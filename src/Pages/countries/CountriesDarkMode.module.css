@@ -1,0 +1,29 @@
+@import url("./Countries.module.css");
+
+.inputSearch [class~="p-inputtext"] {
+  background-color: hsl(209, 23%, 22%) !important ;
+  box-shadow: 0px 0px 5px hsl(208, 24%, 14%) !important;
+}
+
+.inputSearch * {
+  color: white !important;
+}
+
+.dropdownFilterByRegion {
+  background-color: hsl(209, 23%, 22%) !important ;
+  box-shadow: 0px 0px 5px hsl(208, 24%, 14%) !important;
+}
+
+.dropdownFilterByRegion *,
+.dropdownFilterByRegionPanel * {
+  color: rgb(226, 226, 226) !important;
+  background-color: hsl(209, 23%, 22%) !important ;
+}
+
+.dropdownFilterByRegionPanel {
+  box-shadow: 0px 0px 5px hsl(208, 24%, 14%) !important;
+}
+
+.cardNotFound {
+  color: white !important;
+}

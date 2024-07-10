@@ -1,0 +1,56 @@
+.content {
+  min-width: 1260px;
+  max-width: 100%;
+  min-height: 100vh;
+  padding: 125px 45px 45px 45px;
+}
+
+.divSearchAndFilter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+
+.inputSearch [class~="p-inputtext"] {
+  width: 450px;
+  border: none;
+  border-radius: 0.2rem;
+  box-shadow: 0px 0px 5px rgb(179, 179, 179) !important;
+}
+
+.inputSearch [class~="p-inputtext"]::placeholder {
+  color: rgb(143, 143, 143);
+}
+
+.dropdownFilterByRegion {
+  border: none !important;
+  border-radius: 0.2rem !important;
+  width: 200px;
+  height: 45px;
+  box-shadow: 0px 0px 5px rgb(168, 168, 168) !important;
+}
+
+.dropdownFilterByRegion:hover {
+  background-color: transparent;
+}
+
+.dropdownFilterByRegion *,
+.dropdownFilterByRegionPanel {
+  color: hsl(209, 23%, 22%) !important;
+}
+
+.dropdownFilterByRegionPanel {
+  margin-top: 5px;
+  z-index: 0 !important;
+  box-shadow: 0px 0px 5px rgb(179, 179, 179) !important;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 265px);
+  gap: 45px;
+}
+
+.cardNotFound {
+  color: hsl(209, 23%, 22%) !important;
+}

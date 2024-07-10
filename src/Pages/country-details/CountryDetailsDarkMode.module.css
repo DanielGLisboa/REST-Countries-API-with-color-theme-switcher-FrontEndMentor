@@ -1,0 +1,33 @@
+@import url("./CountryDetails.module.css");
+
+.backButton {
+  color: white !important;
+  background-color: hsl(209, 23%, 22%) !important;
+  box-shadow: 0px 0px 5px hsl(208, 24%, 14%) !important;
+}
+
+.backButton * {
+  color: white !important;
+}
+
+.backButton:hover {
+  background-color: hsla(208, 23%, 22%, 0.671) !important;
+}
+
+.flag {
+  background-color: hsl(210, 20%, 16%);
+}
+
+.main * {
+  color: white !important;
+}
+
+.buttonBorder {
+  background-color: hsl(209, 23%, 22%);
+  box-shadow: 0px 0px 2px hsl(208, 24%, 14%);
+}
+
+.buttonBorder:hover {
+  transition: 100ms !important;
+  background-color: hsla(208, 23%, 22%, 0.671) !important;
+}

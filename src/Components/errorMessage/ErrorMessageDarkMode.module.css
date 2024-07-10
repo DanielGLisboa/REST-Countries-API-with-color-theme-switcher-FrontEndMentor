@@ -1,0 +1,5 @@
+@import url("./ErrorMessage.module.css");
+
+.errorMessage p {
+  color: rgb(211, 211, 211);
+}

@@ -1,0 +1,39 @@
+.card {
+  width: 240px;
+  height: 335px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card:hover {
+  transition: 200ms;
+  scale: 1.02;
+}
+.card * {
+  color: hsl(207, 26%, 17%);
+}
+
+.card [class~="p-card-header"] {
+  height: 160px;
+}
+
+.card [class~="p-card-subtitle"] {
+  margin-top: -10px;
+  font-size: 14px;
+  font-weight: 600 !important;
+  color: hsl(209, 18%, 31%) !important;
+}
+
+.cardHeaderImg {
+  height: 160px;
+}
+
+.card [class~="p-card-body"] {
+  padding: 25px !important;
+  border-top: 1px solid #e7e7e77e;
+}
+
+.card [class~="p-card-content"],
+[class~="p-card-title"] {
+  padding: 0 !important;
+}

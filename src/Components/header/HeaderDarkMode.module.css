@@ -1,0 +1,14 @@
+@import url(Header.module.css);
+
+.header {
+  background-color: hsl(209, 23%, 22%);
+  box-shadow: 0px 0px 10px rgb(36, 36, 36), 0px 0px 0px;
+}
+
+.title {
+  color: #ffffff;
+}
+
+.toogleDarkMode * {
+  color: #ffffff;
+}

@@ -1,0 +1,113 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  min-width: 1260px;
+  max-width: 100%;
+  min-height: 100vh;
+  padding: 125px 45px 45px 45px;
+}
+
+.backButton {
+  all: unset !important;
+  width: 135px !important;
+  height: 40px !important;
+  background-color: #ffffff !important;
+  text-align: center !important;
+  border-radius: 0.5rem !important;
+  box-shadow: 0px 0px 5px rgb(179, 179, 179) !important;
+  cursor: pointer !important;
+}
+
+.backButton * {
+  color: hsl(209, 23%, 22%) !important;
+}
+
+.backButton:hover {
+  transition: 100ms !important;
+  background-color: #f7f7f74f !important;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 405px;
+}
+
+.main * {
+  color: hsl(209, 23%, 22%) !important;
+}
+
+.flag {
+  width: 534px;
+  height: 356px;
+  background-size: 100% 100%;
+  background-color: #f3f1f1;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 575px;
+  min-height: 365px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: -40px;
+  height: 160px;
+}
+
+.Detailsitem{
+  display: flex;
+  flex-wrap: wrap;
+  width: 310px;
+  gap: 0 2px;
+}
+
+.countryName {
+  width: 100%;
+  height: 35px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.divBorderCountries {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  height: 30px;
+}
+
+.labelBorderCountries {
+  width: 130px;
+}
+
+.borderCountries {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.buttonBorder {
+  width: 90px;
+  height: 30px;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 2px rgb(124, 124, 124);
+}
+
+.buttonBorder:hover {
+  transition: 100ms !important;
+  background-color: #f7f7f74f !important;
+}

@@ -1,0 +1,22 @@
+@import url("./CountryCard.module.css");
+
+.card {
+  background-color: hsl(209, 23%, 22%) !important;
+}
+
+.card * {
+  color: #ffffff;
+}
+
+.card [class~="p-card-subtitle"] {
+  color: hsl(0, 9%, 91%) !important ;
+}
+
+.card [class~="p-card-body"] {
+  border-top: transparent;
+}
+
+.card [class~="p-card-content"],
+[class~="p-card-title"] {
+  padding: 0 !important;
+}
